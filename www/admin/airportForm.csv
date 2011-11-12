@@ -1,0 +1,5 @@
+text,airportID,airportID,char,4,4
+text,name,name,char,64,32
+text,city,city,char,32,32
+text,state,state,char,32,16
+boolean,isInternational,isInternational

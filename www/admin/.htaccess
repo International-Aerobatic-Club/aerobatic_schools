@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted"
+AuthUserFile /home/wbreezec/.htpasswds/schools/passwd
+AuthGroupFile /home/wbreezec/.htpasswds/schools/groups
+Require group admin

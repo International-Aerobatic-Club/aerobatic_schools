@@ -1,0 +1,64 @@
+/* layout */
+div.footer { padding-left:25px; font-size:small; margin-top:4ex; }
+div.content { padding-left:25px; }
+
+/* resources */
+div.title { margin-left:5em; font-family:times,serif; font-style:italic; font-size:xx-large; font-weight:bold; }
+div.subtitle { margin-top:1ex; margin-left:2em; font-family:times,serif; font-style:italic; font-size:x-large; font-weight:bold; }
+div.articleListHeading { margin-top:10px; font-family:times,serif; font-style:italic; font-size:x-large; font-weight:bold; }
+div.section { width:90%; margin-right:30px; clear:both; padding-bottom:3ex; border-bottom:4pt solid grey; }
+div.subsection { padding-bottom:2ex; margin-left:2em; clear:both; border-top:2pt solid grey; }
+div.bio { font-size:small; }
+img.headshot { float:left; margin-left:0px; margin-top:10px; margin-bottom:0px; margin-right:10px; padding:2px; background-color:black; border:4px inset blue; }
+ul.reprints li { list-style-type:none; margin-left:2em; }
+span.author { margin-left:1ex; font-style:italic; }
+span.title { font-style:italic; }
+
+/* ? */
+h1 { margin:0pt; margin-left:5em; font-family:times,serif; font-style:italic; }
+h2 { margin:0pt; margin-left:2em; font-family:times,serif; font-style:italic; }
+h3 { margin:0pt; font-family:times,serif; font-style:italic; }
+
+/* listing */
+a.top { font-size:small; margin-left:1em; font-variant:italic; }
+div.states { font-variant:small-caps; margin-bottom:1ex; }
+div.states a { margin-right:1em; }
+div.disclaimer { font-weight:bold; }
+div.schoolRecord { margin-bottom:1ex; }
+div.schoolActions { display:inline; }
+div.instructorActions { display:inline; }
+span.instructorCred { margin-left:5pt; font-style:italic; }
+.instructorName { font-weight:bold; }
+.schoolName { font-weight:bold; font-size:larger; }
+.schoolAddress { font-style:italic; }
+div.schoolHeading { display:inline; margin-right:0.5em; }
+div.schoolAircraft { margin-left:3em; }
+div.schoolCourses { margin-left:3em; }
+div.schoolNotes { margin-left:3em; }
+div.schoolContact { margin-left:3em; }
+div.instructorList { margin-left:5em; }
+span.schoolContactEmail { margin-left:1em; }
+span.schoolContactPhone { margin-left:1em; }
+span.schoolContactFax { margin-left:1em; }
+span.schoolContactWeb { margin-left:1em; }
+span.schoolContactName { margin-right:1em; }
+div.state {margin-top:2ex; font-size:larger; font-weight:bold; width:100%; border-bottom:2pt solid grey;}
+
+/* forms */
+input.form_check {width:auto; white-space:nowrap;margin-left:10px;}
+input.form_boolean {width:auto; white-space:nowrap;}
+input.submit {width:auto; margin:15px; padding:5px;}
+form.regForm table {width:100%;}
+form.regForm td {vertical-align:bottom;}
+div.select_item {display:inline;}
+div.check_item {display:inline;}
+div.regSubmit {vertical-align:middle;}
+form.regForm {background-color:#ddd;}
+form.volunteer {background-color:#ddd;}
+label {display:block}
+label.radio {display:inline;margin-right:10px;}
+label.check {display:inline;margin-right:10px;}
+div.select_item label {display:inline;margin-right:10px;}
+div.check_item label {display:inline;margin-right:10px;}
+fieldset {display:inline;border:none;vertical-align:bottom;margin:0;padding:0}
+td {padding-left:4px;vertical-align:top;}
