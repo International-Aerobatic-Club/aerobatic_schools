@@ -40,8 +40,8 @@ dbClose($db_conn);
 
 function querySchoolRecords($db_conn)
 {
-   $query = "select name, addressLine1, addressLine2, ".
-   "city, state, zip, contact, country from school";
+   $query = "select name, contact, addressLine1, addressLine2, ".
+   "city, state, zip, country, phone, email from school";
    $query .= ' order by country, state, name';
    return dbQuery($db_conn, $query);
 }
