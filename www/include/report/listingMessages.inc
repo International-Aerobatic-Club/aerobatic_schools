@@ -5,7 +5,7 @@ function listingInstructions()
 <p class="listing">To have your school listed in this directory, or to revise your listing,
 please use the <a href="schoolUpdate.php">school update</a> or <a
 	href="instructorUpdate.php">instructor update</a> form. Or complete and
-mail the <a href="images/aero_directory_application.pdf">the aerobatic
+mail the <a href="images/aero_directory_applicationV2.pdf">the aerobatic
 flight school directory application</a>.</p>
 <?php
 }
