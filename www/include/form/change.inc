@@ -12,7 +12,10 @@ function changeTypeFormEntry($post)
    echo '<fieldset id="in_change">';
    foreach ($changeTypes as $ct) {
    echo '<div class="select_item"><input class="form_select"';
-   echo 'id="in_change_add" type="radio" name="change" value="'.$ct.'" '.isSelected($post,'change',$ct).'/><label for="in_change_add">'.$ct.'</label></div>';
+   echo 'id="in_change_"'.$ct.
+     '" type="radio" name="change" value="'.$ct.'" '.
+     isSelected($post,'change',$ct).
+     '/><label for="in_change_'.$ct.'">'.$ct.'</label></div>';
    }
    echo '</td>';
    echo '</tr>';

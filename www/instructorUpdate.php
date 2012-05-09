@@ -9,6 +9,7 @@ require_once("model/school.inc");
 require_once("model/instructor.inc");
 require_once("model/data.inc");
 require_once("report/mailMessages.inc");
+require_once('secureimage.inc');
 
 function schoolRefForm($school)
 {
@@ -39,6 +40,11 @@ if (isset($_POST["submit"]))
    // begin form processing
    $corrMsg = $school->validatePost($_POST, true);
    $corrMsg .= $instructor->validatePost($_POST);
+   $antirobo = new securimage();
+   if (!$antirobo->check($_POST['antiRobot']))
+   {
+      $corrMsg .= "<li>Copy the anti-robot image text.</li>";
+   }
    $changeType = $_POST['change'];
    if ($corrMsg == '')
    {
@@ -53,6 +59,10 @@ if (isset($_POST["submit"]))
          $corrMsg = "<it>Internal: failed email update.</it>";
       }
    }
+}
+else
+{
+   $_POST['change'] = 'update';
 }
 startHead("Instructor Information");
 startContent();
@@ -77,6 +87,12 @@ echo "<h3>School Reference:</h3>\n";
 schoolRefForm($school);
 echo "<h3>Instructor information:</h3>\n";
 instructorForm($instructor);
+   echo '<div class="antiRobo">';
+   echo '<p>Copy the anti-robot image text:</p>';
+   echo '<img src="antiRoboImage.php?sid=' .
+     md5(uniqid(time())) . '" alt="anti-robot image"/>';
+   echo '<input class="antiRobot" type="text" size="8" maxlength="8" name="antiRobot"/>';
+   echo '</div>';
 echo '<div class="submit">';
 echo '<input class="submit" name="submit" type="submit" value="Mail Updates"/>';
 echo '</div>';

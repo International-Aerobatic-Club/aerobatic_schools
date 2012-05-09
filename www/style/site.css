@@ -62,3 +62,11 @@ div.select_item label {display:inline;margin-right:10px;}
 div.check_item label {display:inline;margin-right:10px;}
 fieldset {display:inline;border:none;vertical-align:bottom;margin:0;padding:0}
 td {padding-left:4px;vertical-align:top;}
+
+/* anti-robot */
+.antiRobot {
+  margin-bottom:8px;margin-left:10px;
+  font-size:24pt;font-weight:bold;
+  font-family:Helvetica Rockwell Helvetica sans-serif;
+  font-variant:small-caps;
+}
