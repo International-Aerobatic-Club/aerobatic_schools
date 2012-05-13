@@ -169,8 +169,8 @@ class Instructor {
       //      debug('instructor.printData '.$this->cert);
       $data = 'Instructor '.$this->givenName.' '.$this->sirName."\n";
       if ($this->isCFI()) $data .= "is a CFI\n";
-      if ($this->isFIA()) $data .= "is a NAFI/IAC Aerobatic Instructor\n";
-      if ($this->isMCFI()) $data .= "is a NAFI Master CFI\n";
+      if ($this->isFIA()) $data .= "is an Aerobatic Instructor\n";
+      if ($this->isMCFI()) $data .= "is a Master CFI\n";
       if ($this->isACE) $data .= "is an ICAS Aerobatic Comepetency Evaluator (A.C.E.)\n";
       return $data;
    }
