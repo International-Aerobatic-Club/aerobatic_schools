@@ -18,7 +18,7 @@ $email_action='mail';
 $admin_email = "admin@iacusn.org";
 
 // IAC schools liason
-$schools_email = 'miriamdlevin@optonline.net';
+$schools_email = 'miriamdelores@gmail.com';
 $schools_name = 'Miriam Levin';
 
 /*
