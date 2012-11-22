@@ -12,6 +12,16 @@ startContent();
 <div class="title">Resources for Aerobatic Instructors and Students</div>
 
 <div class="section">
+<div class="subtitle">Aerobatic School/Instructor Listing Request</div>
+<?php
+listingInstructions();
+?>
+<p>Your IAC schools liason is <?php 
+echo "<a href='mailto:".$schools_email."?subject=Flight Schools'>".$schools_name."</a>.\n";
+?></p>
+</div>
+
+<div class="section">
 <div class="subtitle">Feature Articles</div>
 
 <div class="subsection"><img class="headshot"
@@ -96,6 +106,9 @@ information visit: <a href="http://www.gkairshows.com">www.gkairshows.com</a>
 	src="images/250/DSC_3522.JPG" style="float: left" />
 <div class="articleListHeading">Additional Articles</div>
 <ul class="reprints">
+	<li><a href="reprints/IAC-Finding Quality Aerobatic Instructionx.pdf">Finding
+  Quality Aerobatic Instruction</a><span class="author">by Miriam
+  Levin</span></li>
     <li><a href="reprints/rvcomp.pdf">Can RVs Contend in the IAC?</a><span
         class="author">by Jeff Stoltenberg</span></li>
 	<li><a href="reprints/07july_achvmnt.pdf">IAC Achievement Awards
@@ -115,10 +128,6 @@ information visit: <a href="http://www.gkairshows.com">www.gkairshows.com</a>
 </div>
 
 <div class="section">
-<div class="subtitle">Request Materials from IAC</div>
-</div>
-
-<div class="section">
 <div class="subtitle">IAC Chapters</div>
 <p>If you are interested in getting involved with an IAC Chapter in your
 area, you can search for IAC Chapters using this link <a
@@ -127,16 +136,6 @@ there is no Chapter in your immediate area and you wish to start an IAC
 Chapter, please visit <a
 	href="http://www.eaa.org/chapters/activities/startachapter.asp">How to
 Start an IAC Chapter</a>.</p>
-</div>
-
-<div class="section">
-<div class="subtitle">Aerobatic School/Instructor Listing Request</div>
-<?php
-listingInstructions();
-?>
-<p>Your IAC liason is <?php 
-echo "<a href='mailto:".$schools_email."?subject=Flight Schools'>".$schools_name."</a>.\n";
-?></p>
 </div>
 
 <p><a href="index.php">Return to schools listing</a></p>
