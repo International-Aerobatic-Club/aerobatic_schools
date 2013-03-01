@@ -16,7 +16,7 @@ startContent();
 <?php
 listingInstructions();
 ?>
-<p>Your IAC schools liason is <?php 
+<p>Your IAC schools liaison is <?php 
 echo "<a href='mailto:".$schools_email."?subject=Flight Schools'>".$schools_name."</a>.\n";
 ?></p>
 </div>
