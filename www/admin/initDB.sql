@@ -1,11 +1,3 @@
-alter table school drop column isInternational;
-alter table school add column airport char(4);
-alter table school add column airCity char(32);
-alter table school add column airState char(32);
-alter table school add column country char(32);
-update school set aircity = city, airstate = state;
-UPDATE school set country = null WHERE country = '';
-
 create table if not exists school
 (
 id int unsigned not null auto_increment primary key,
