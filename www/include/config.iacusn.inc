@@ -18,8 +18,8 @@ $email_action='mail';
 $admin_email = "admin@iacusn.org";
 
 // IAC schools liason
-$schools_email = 'miriamdelores@gmail.com';
-$schools_name = 'Miriam Levin';
+$schools_email = 'lynn.bowes@hotmail.com';
+$schools_name = 'Lynn Bowes';
 
 /*
    Copyright 2009 International Aerobatic Club, Inc.
