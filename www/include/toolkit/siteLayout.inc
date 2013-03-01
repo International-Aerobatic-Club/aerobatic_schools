@@ -73,7 +73,7 @@ function endContent()
 {
    global $baseURL;
    echo '</div><div class="footer"><p>';
-   echo 'Copyright &copy;2009-2012 International Aerobatic Club. All logos, ';
+   echo 'Copyright &copy;2009-2013 International Aerobatic Club. All logos, ';
    echo 'trademarks, pictures, and videos are the property of their respective ';
    echo 'owners. Contact ';
    echo '<a href="mailto:doug@wbreeze.com" class="footer">Douglas Lovell</a> ';
